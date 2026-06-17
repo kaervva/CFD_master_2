@@ -1,0 +1,18 @@
+1.25 2000.0 	!rho1, rho2 - плотность газа, частиц
+1.82e-5		!mu1 - вязкость
+1.e-3		!dp - диаметр 
+0.2 0.51	!x0, y0 - начальные координаты
+0.5 0.2		!u0, v0 - начальные скорости
+0.0		!w0 - начальное вращение
+0.01		!dt
+1200		!Nt
+2		!Scheme: 1 - Euler, 2 - Adams-Bashforth 2
+2		!Parameter_scheme: 1 - cell center, 2 - inverse-distance interpolation
+1		!BC_mode: 0 - constant restitution, 1 - angle-dependent model
+0.0 0.0	!gx, gy - gravity acceleration
+1		!Resting_liquid_test: 0 - off, 1 - on
+0.01 0.005 5.e-4	!u0_force, v0_force, w0_moment for analytical test
+0.01		!dt for analytical test
+1200		!Nt for analytical test
+param_w0_0_1e3_1e4_st7387	!output tag to avoid overwriting previous files
+0.0		!Pressure_gradient_scale for the main particle run

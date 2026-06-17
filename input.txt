@@ -1,0 +1,5 @@
+mesh.msh !name of meshfile
+3  !power of polynom
+1  !parameter in polynom
+1 !iterations gradT
+1  !mode div
